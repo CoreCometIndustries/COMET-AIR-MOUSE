@@ -56,13 +56,12 @@ firmware/
 
 You do **not** need to install Arduino IDE, board cores, or libraries if you just want to use the Air Mouse. You can flash the pre-compiled firmware directly from your browser:
 
-1. **Download `.bin` File**: Get the latest release `.bin` file (e.g. `ESP32-C3-AIR-MOUSE.ino.merged.bin` or `ESP32-C3-AIR-MOUSE.ino.bin`) from the GitHub Releases page.
+1. **Download `.bin` File**: Get the latest release `.bin` file (e.g. `ESP32-C3-AIR-MOUSE.bin`) from the GitHub Releases page.
 2. **Open Web ESPTool**: Open an esptool web flasher in a Web Serial supported browser (Chrome, Edge, Opera):
    - [Espressif Web ESPTool](https://espressif.github.io/esptool-js/) or [Adafruit Web Serial ESPTool](https://adafruit.github.io/Adafruit_WebSerial_ESPTool/)
 3. **Connect Board**: Plug your ESP32-C3 into USB, set baud rate to `115200` or `921600`, click **Connect**, and select your device's COM/Serial port.
 4. **Flash Firmware**:
-   - For **merged binary** (`.merged.bin`): Add file at offset `0x0`.
-   - For **standard app binary** (`.bin`): Add file at offset `0x10000`.
+   - For **binary** (`.bin`): Add file at offset `0x0000`.
    - Click **Program / Flash**.
 5. **Pair & Use**: Reset the board, place it flat on a desk during boot for auto gyro calibration, then pair **`COMET AIRMOUSE`** under host Bluetooth settings!
 
