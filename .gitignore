@@ -1,0 +1,44 @@
+# ==========================================
+# ESP32-C3 Air Mouse - Git Ignore
+# ==========================================
+
+# Arduino IDE & Build Artifacts
+build/
+*.bin
+*.elf
+*.map
+*.hex
+*.partitions.bin
+*.bootloader.bin
+*.merged.bin
+build.options.json
+flash_args
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
+
+# IDE & Editor Settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+tmp/
+temp/
