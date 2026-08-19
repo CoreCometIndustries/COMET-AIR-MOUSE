@@ -19,10 +19,10 @@ This document outlines the hardware setup and wiring diagram for the **COMET AIR
 
 ## 🛠️ Schematic Connection Diagram
 
-```
+
 <img width="557" height="529" alt="Screenshot 2026-08-17 135605" src="https://github.com/user-attachments/assets/4b63c2fa-5861-4b36-ab4f-579083a7dd2b" />
 
----
+
 
 ## ⚠️ Notes on Button Logic & Debouncing
 
