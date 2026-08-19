@@ -49,6 +49,8 @@ firmware/
 | **Right Button** | Click / Scroll Up | **GPIO 2** | Internal Pull-Up (`INPUT_PULLUP`) |
 
 ---
+##  Connection 
+<img width="557" height="529" alt="Screenshot 2026-08-17 135605" src="https://github.com/user-attachments/assets/ab82ead3-3bf2-4b7f-87ec-4d62b1134e70" />
 
 ## 🚀 Getting Started
 
