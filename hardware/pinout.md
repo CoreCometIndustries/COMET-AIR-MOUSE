@@ -20,18 +20,7 @@ This document outlines the hardware setup and wiring diagram for the **COMET AIR
 ## 🛠️ Schematic Connection Diagram
 
 ```
-                 +-----------------------+
-                 |       ESP32-C3        |
-                 |                       |
-   MPU6050       |                       |       Push Buttons
- +---------+     |                       |     +--------------+
- |     SDA |<--->| GPIO 5                |     |              |
- |     SCL |<--->| GPIO 4                |     | Left Button  |
- |     VCC |<---| 3.3V          GPIO 3  |<--->| (to GND)     |
- |     GND |<---| GND           GPIO 2  |<--->| Right Button |
- +---------+     |                       |     | (to GND)     |
-                 +-----------------------+     +--------------+
-```
+<img width="557" height="529" alt="Screenshot 2026-08-17 135605" src="https://github.com/user-attachments/assets/4b63c2fa-5861-4b36-ab4f-579083a7dd2b" />
 
 ---
 
